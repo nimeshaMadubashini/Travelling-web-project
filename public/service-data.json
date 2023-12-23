@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "img": "weather.png",
+    "topic": "Calculate Weather",
+    "desc": "Real-time weather calculations to help users plan their trips with up-to-date weather information"
+  },
+  {
+    "id": 2,
+    "img": "guide.png",
+    "topic": "Best Tour Guide ",
+    "desc": "The platform provides access to the best tour guides and allows for seamless customization"
+  },
+  {
+    "id": 3,
+    "img": "customization.png",
+    "topic": "Customization",
+    "desc": "Ensuring a personalized and enriching travel experience tailored to individual preferences"
+  }
+]

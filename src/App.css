@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+:root{
+  --primary-color:#FFC300;
+  --secondary-color:#FD9B26;
+  --heading-color:#0b2727;
+  --text-color:#6e7074;
+  --font-name:"Montserrat",sans-serif;
+  --subtitle-font-name:"Island Moments",cursive;
+
+}
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: var(--font-name);
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--heading-color);
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+ul{
+  list-style: none;
+}
+section{
+  padding: 50px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.primary__btn {
+  background: var(--secondary-color) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  padding: 0.3rem 1.4rem !important;
+}
+.primary__btn a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+}
+.primary__btn a:hover {
+  color: inherit;
+}
+.secondary__btn{
+  background: transparent !important;
+  color: #0b2727;
+  border: none !important;
+  font-weight: 500;
+}
+.secondary__btn a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--heading-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondary__btn a:hover {
+  color: inherit;
 }
