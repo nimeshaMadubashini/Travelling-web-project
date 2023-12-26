@@ -1,0 +1,24 @@
+[
+  {
+    "id": "01",
+    "title": "Bali ,Indonesia",
+    "city": "Indonesia",
+    "duration": "8 or 12 days",
+    "maxGroupSize": 10,
+    "price": 99,
+    "desc": "this is a description",
+    "reviews": [
+      {
+        "name": "jone Doe",
+        "rating": 4.5
+      },
+      {
+        "name": "julya",
+        "rating": 5
+      }
+
+    ],
+    "avgRating": 4.5,
+    "photo":"big-entrance-gate-bali-indonesia.jpg"
+  }
+]

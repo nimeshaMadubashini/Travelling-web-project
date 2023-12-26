@@ -5,33 +5,35 @@ import hero2 from '../../../images/maldives-island.jpg'
 import hero3 from '../../../images/hero5.jpg'
 import {SearchBar} from "./common/SearchBar/SearchBar";
 import {Service} from "./common/Service/Service";
+import {TourDetail} from "../tour/TourDetail";
 
 export class Home extends Component {
-    constructor(props:{} | Readonly<{}>) {
-    super(props);
-    this.state={
-        data:[],
+    constructor(props: {} | Readonly<{}>) {
+        super(props);
+        this.state = {
+            data: [],
+        }
     }
-}
+
     componentDidMount() {
         this.fetchData();
     }
 
-    fetchData=async ():Promise<void>=>{
-    try {
+    fetchData = async (): Promise<void> => {
+        try {
 
-        const response: Response = await fetch('service-data.json');
-        const jsonData = await response.json();
-        this.setState({data: jsonData})
-    }catch (error){
-        console.log("Error fetching Data",error)
+            const response: Response = await fetch('service-data.json');
+            const jsonData = await response.json();
+            this.setState({data: jsonData})
+        } catch (error) {
+            console.log("Error fetching Data", error)
+        }
     }
-}
 
 
     render() {
         // @ts-ignore
-        const {data}= this.state;
+        const {data} = this.state;
 
         return (
             <>
@@ -86,21 +88,32 @@ export class Home extends Component {
 
                     </div>
                 </section>
+                {/*=========================start of service section=============================*/}
                 <section>
                     <div className="flex">
-                            <div className="ml-32 w-[12.5rem] " >
-                                <h5 className='font-subtitleFont text-[30px] text-red-700 '>What we serve
-                                </h5>
-                                <h2 className='text-[28px] text-heading font-semibold'>We offer our best services</h2>
-                            </div>
-<div className="flex">
-    {
-        data.map((service:any)=>(
-            <Service key={service.id} data={service}/>
-        ))
-    }
-</div>
+                        <div className="ml-32 w-[12.5rem] ">
+                            <h5 className='font-subtitleFont text-[20px] text-red-700 '>What we serve
+                            </h5>
+                            <h2 className='text-[28px] text-heading font-semibold'>We offer our best services</h2>
                         </div>
+                        <div className="flex">
+                            {
+                                data.map((service: any) => (
+                                    <Service key={service.id} data={service}/>
+                                ))
+                            }
+                        </div>
+                    </div>
+                </section>
+                {/*=========================end of service section=============================*/}
+                {/*=========================start of tour Card================================= */}
+                <section>
+                    <div className="flex">
+                        <h2 className='text-[28px] text-heading font-semibold ml-32'>Our featured tours</h2>
+                    </div>
+                    <div>
+                        <TourDetail/>
+                    </div>
                 </section>
             </>
         );
