@@ -20,5 +20,159 @@
     ],
     "avgRating": 4.5,
     "photo":"big-entrance-gate-bali-indonesia.jpg"
+  },
+  {
+    "id": "02",
+    "title": "Bali ,Indonesia",
+    "city": "Indonesia",
+    "duration": "8 or 12 days",
+    "maxGroupSize": 10,
+    "price": 99,
+    "desc": "this is a description",
+    "reviews": [
+      {
+        "name": "jone Doe",
+        "rating": 4.5
+      },
+      {
+        "name": "julya",
+        "rating": 5
+      }
+
+    ],
+    "avgRating": 4.5,
+    "photo":"big-entrance-gate-bali-indonesia.jpg"
+  },{
+  "id": "03",
+  "title": "Bali ,Indonesia",
+  "city": "Indonesia",
+  "duration": "8 or 12 days",
+  "maxGroupSize": 10,
+  "price": 99,
+  "desc": "this is a description",
+  "reviews": [
+    {
+      "name": "jone Doe",
+      "rating": 4.5
+    },
+    {
+      "name": "julya",
+      "rating": 5
+    }
+
+  ],
+  "avgRating": 4.5,
+  "photo":"big-entrance-gate-bali-indonesia.jpg"
+},
+  {
+    "id": "04",
+    "title": "Bali ,Indonesia",
+    "city": "Indonesia",
+    "duration": "8 or 12 days",
+    "maxGroupSize": 10,
+    "price": 99,
+    "desc": "this is a description",
+    "reviews": [
+      {
+        "name": "jone Doe",
+        "rating": 4.5
+      },
+      {
+        "name": "julya",
+        "rating": 5
+      }
+
+    ],
+    "avgRating": 4.5,
+    "photo":"big-entrance-gate-bali-indonesia.jpg"
+  },
+
+  {
+    "id": "05",
+    "title": "Bali ,Indonesia",
+    "city": "Indonesia",
+    "duration": "8 or 12 days",
+    "maxGroupSize": 10,
+    "price": 99,
+    "desc": "this is a description",
+    "reviews": [
+      {
+        "name": "jone Doe",
+        "rating": 4.5
+      },
+      {
+        "name": "julya",
+        "rating": 5
+      }
+
+    ],
+    "avgRating": 4.5,
+    "photo":"big-entrance-gate-bali-indonesia.jpg"
+  },
+  {
+    "id": "06",
+    "title": "Bali ,Indonesia",
+    "city": "Indonesia",
+    "duration": "8 or 12 days",
+    "maxGroupSize": 10,
+    "price": 99,
+    "desc": "this is a description",
+    "reviews": [
+      {
+        "name": "jone Doe",
+        "rating": 4.5
+      },
+      {
+        "name": "julya",
+        "rating": 5
+      }
+
+    ],
+    "avgRating": 4.5,
+    "photo":"big-entrance-gate-bali-indonesia.jpg"
+  },
+  {
+    "id": "07",
+    "title": "Bali ,Indonesia",
+    "city": "Indonesia",
+    "duration": "8 or 12 days",
+    "maxGroupSize": 10,
+    "price": 99,
+    "desc": "this is a description",
+    "reviews": [
+      {
+        "name": "jone Doe",
+        "rating": 4.5
+      },
+      {
+        "name": "julya",
+        "rating": 5
+      }
+
+    ],
+    "avgRating": 4.5,
+    "photo":"big-entrance-gate-bali-indonesia.jpg"
+  },
+  {
+    "id": "08",
+    "title": "Bali ,Indonesia",
+    "city": "Indonesia",
+    "duration": "8 or 12 days",
+    "maxGroupSize": 10,
+    "price": 99,
+    "desc": "this is a description",
+    "reviews": [
+      {
+        "name": "jone Doe",
+        "rating": 4.5
+      },
+      {
+        "name": "julya",
+        "rating": 5
+      }
+
+    ],
+    "avgRating": 4.5,
+    "photo":"big-entrance-gate-bali-indonesia.jpg"
   }
 ]

@@ -108,13 +108,47 @@ export class Home extends Component {
                 {/*=========================end of service section=============================*/}
                 {/*=========================start of tour Card================================= */}
                 <section>
-                    <div className="flex">
-                        <h2 className='text-[28px] text-heading font-semibold ml-32'>Our featured tours</h2>
+                    <div className="flex-col ml-32 ">
+                        <h5 className="font-a bg-secondary rounded-bl-2xl rounded-tr-2xl text-2xl w-24 text-center">Feature</h5>
+                        <h2 className='text-[28px] text-heading font-semibold '>Our featured tours</h2>
                     </div>
-                    <div>
+                    <div className="ml-32">
                         <TourDetail/>
                     </div>
                 </section>
+                {/*=========================end of tour Card================================= */}
+                {/*=========================start of experience================================= */}
+<section>
+    <div className=" ml-32 w-[25rem]">
+    <div className='flex-col'>
+        <h5 className="font-a bg-secondary rounded-bl-2xl rounded-tr-2xl text-2xl w-24 text-center">Experience</h5>
+        <h2 className="mt-4 text-3xl  font-semibold" >With our all experience we will serve you</h2>
+        <p>With a wealth of expertise, we are dedicated to providing unparalleled service tailored to your needs.</p>
+    </div>
+    <div className='flex'>
+        <div className='flex-col gap-2'>
+            <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
+            <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">12k+</h5>
+            </div>
+            <h5 className='text-[14px] mt-2' >Successful trip</h5>
+        </div>
+        <div className='flex-col  ml-6'>
+            <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
+                <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">2k+</h5>
+            </div>
+            <h5 className='text-[14px] mt-2' >Regular clients</h5>
+        </div>
+        <div className='flex-col ml-6'>
+            <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
+                <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">10</h5>
+            </div>
+            <h5 className='text-[14px] mt-2' >Years Experience</h5>
+        </div>
+
+    </div>
+    </div>
+</section>
+
             </>
         );
     }

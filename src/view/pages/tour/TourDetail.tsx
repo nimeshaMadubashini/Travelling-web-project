@@ -29,7 +29,7 @@ export class TourDetail extends Component {
         const {data} = this.state;
 
         return (
-            <div>
+            <div className="flex gap-6 flex-wrap">
                 {
                     data.map((tour: any) => (
                         <TourCard key={tour.id} data={tour}/>
