@@ -6,6 +6,10 @@ import hero3 from '../../../images/hero5.jpg'
 import {SearchBar} from "./common/SearchBar/SearchBar";
 import {Service} from "./common/Service/Service";
 import {TourDetail} from "../tour/TourDetail";
+import experience from "../../../images/exp.png"
+import experience1 from "../../../images/expirience1.png"
+import {Gallery} from "./common/Gallery/Gallery";
+
 
 export class Home extends Component {
     constructor(props: {} | Readonly<{}>) {
@@ -118,36 +122,62 @@ export class Home extends Component {
                 </section>
                 {/*=========================end of tour Card================================= */}
                 {/*=========================start of experience================================= */}
-<section>
-    <div className=" ml-32 w-[25rem]">
-    <div className='flex-col'>
-        <h5 className="font-a bg-secondary rounded-bl-2xl rounded-tr-2xl text-2xl w-24 text-center">Experience</h5>
-        <h2 className="mt-4 text-3xl  font-semibold" >With our all experience we will serve you</h2>
-        <p>With a wealth of expertise, we are dedicated to providing unparalleled service tailored to your needs.</p>
-    </div>
-    <div className='flex'>
-        <div className='flex-col gap-2'>
-            <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
-            <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">12k+</h5>
-            </div>
-            <h5 className='text-[14px] mt-2' >Successful trip</h5>
-        </div>
-        <div className='flex-col  ml-6'>
-            <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
-                <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">2k+</h5>
-            </div>
-            <h5 className='text-[14px] mt-2' >Regular clients</h5>
-        </div>
-        <div className='flex-col ml-6'>
-            <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
-                <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">10</h5>
-            </div>
-            <h5 className='text-[14px] mt-2' >Years Experience</h5>
-        </div>
+                <section>
+                    <div className='flex'>
+                        <div className=" ml-32 w-[25rem]">
+                            <div className='flex-col'>
+                                <h5 className="font-a bg-secondary rounded-bl-2xl rounded-tr-2xl text-2xl w-24 text-center">Experience</h5>
+                                <h2 className="mt-4 text-3xl  font-semibold">With our all experience we will serve
+                                    you</h2>
+                                <p className="mt-4">With a wealth of expertise, we are dedicated to providing
+                                    unparalleled service tailored to your needs.</p>
+                            </div>
+                            <div className='flex'>
+                                <div className='flex-col gap-2'>
+                                    <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
+                                        <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">12k+</h5>
+                                    </div>
+                                    <h5 className='text-[14px] mt-2'>Successful trip</h5>
+                                </div>
+                                <div className='flex-col  ml-6'>
+                                    <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
+                                        <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">2k+</h5>
+                                    </div>
+                                    <h5 className='text-[14px] mt-2'>Regular clients</h5>
+                                </div>
+                                <div className='flex-col ml-6'>
+                                    <div className='rounded-br-2xl rounded-tl-2xl w-[60px] h-[58px] bg-orange-600 ml-5'>
+                                        <h5 className="mt-4 font-semibold text-white  text-center justify-center text-2xl pt-[10px]">10</h5>
+                                    </div>
+                                    <h5 className='text-[14px] mt-2'>Years Experience</h5>
+                                </div>
 
-    </div>
-    </div>
-</section>
+                            </div>
+                        </div>
+                        <div className='ml-40 w-[27rem] h-[20rem]  flex '>
+                            <img src={experience} alt=''
+                                 className='justify-center items-center w-[20rem] h-[20rem] rounded-full '/>
+                            <img src={experience1} alt='' className='ml-[-70px] mt-8'/>
+
+                        </div>
+                    </div>
+                </section>
+                {/*=========================end of experience================================= */}
+                {/*=========================start of gallery================================= */}
+                <section>
+                    <div className=" ml-32 ">
+                        <div className='flex-col'>
+                            <h5 className="font-a bg-secondary rounded-bl-2xl rounded-tr-2xl text-2xl w-24 text-center">
+                                Gallery</h5>
+                            <h2 className="mt-4 text-3xl  font-semibold">Visit our customer tour gallery</h2>
+
+                        </div>
+                        <div className='w-[70rem]  mt-4 '>
+                            <Gallery/>
+                        </div>
+                    </div>
+                </section>
+                {/*=========================end   of gallery================================= */}
 
             </>
         );
