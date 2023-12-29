@@ -9,6 +9,7 @@ import {TourDetail} from "../tour/TourDetail";
 import experience from "../../../images/exp.png"
 import experience1 from "../../../images/expirience1.png"
 import {Gallery} from "./common/Gallery/Gallery";
+import {Reviews} from "./common/Reviwes/Reviews";
 
 
 export class Home extends Component {
@@ -178,6 +179,22 @@ export class Home extends Component {
                     </div>
                 </section>
                 {/*=========================end   of gallery================================= */}
+                {/*=========================start of Reviews================================= */}
+                <section>
+                    <div className=" ml-32 ">
+                        <div className='flex-col'>
+                            <h5 className="font-a bg-secondary rounded-bl-2xl rounded-tr-2xl text-2xl w-24 text-center">
+                                Fans Love</h5>
+                            <h2 className="mt-4 text-3xl  font-semibold">What our fans sy about us</h2>
+
+                        </div>
+                        <div className='w-[70rem]  mt-4 '>
+                            <Reviews/>
+                        </div>
+                    </div>
+                </section>
+                {/*=========================end   of Reviews================================= */}
+
 
             </>
         );

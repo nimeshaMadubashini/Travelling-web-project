@@ -15,6 +15,9 @@ module.exports = {
         heading: "#0b2727",
         text: "#6e7074"
       },
+      scale:{
+        gallery:'1.05'
+      }
 
     },
   },
