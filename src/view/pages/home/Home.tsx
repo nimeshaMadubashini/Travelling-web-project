@@ -10,6 +10,8 @@ import experience from "../../../images/exp.png"
 import experience1 from "../../../images/expirience1.png"
 import {Gallery} from "./common/Gallery/Gallery";
 import {Reviews} from "./common/Reviwes/Reviews";
+import {ReviwesMain} from "./common/Reviwes/ReviwesMain";
+import {NewsLetter} from "../../common/NewsLetter/NewsLetter";
 
 
 export class Home extends Component {
@@ -188,13 +190,13 @@ export class Home extends Component {
                             <h2 className="mt-4 text-3xl  font-semibold">What our fans sy about us</h2>
 
                         </div>
-                        <div className='w-[70rem]  mt-4 '>
-                            <Reviews/>
+                        <div className='flex ml-45'>
+                            <ReviwesMain/>
                         </div>
                     </div>
                 </section>
                 {/*=========================end   of Reviews================================= */}
-
+<NewsLetter/>
 
             </>
         );

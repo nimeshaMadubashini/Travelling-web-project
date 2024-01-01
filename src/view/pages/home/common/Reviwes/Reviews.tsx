@@ -1,23 +1,24 @@
 import {Component} from "react";
-import  rev1 from '../../../../../images/Review/ava-3.jpg'
-import  rev2 from '../../../../../images/Review/ava-2.jpg'
 
-import  rev3 from '../../../../../images/Review/ava-1.jpg'
+interface reviewsProps {
+    data:any
+}
 
-
-export class Reviews extends Component {
+export class Reviews extends Component<reviewsProps> {
     render() {
+        // @ts-ignore
+        const {data} = this.props;
+        const image = require('../../../../../images/Review/'+data.image)
+
         return (
-            <div className='flex'>
+            <div className='flex w-[320px] h-[300px] '>
                 <div className='flex-col'>
-                    <p>
-                        kjadssajbjbfdjbfiduibbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbfbckvbkjdbvjkbv
-                    </p>
+                    <p className='text-[14px]'>{data.desc}</p>
                     <div className='flex'>
-                        <img src={rev2} alt=''/>
-                        < div className='flex'>
-                            <h5>Tesa Hardin</h5>
-                            <h5>Customer</h5>
+                        <img src={image} alt='' className="w-14 h-14 rounded"/>
+                        < div className='flex-col'>
+                            <h5>{data.name}</h5>
+                            <h5>{data.position}</h5>
                         </div>
                     </div>
                 </div>

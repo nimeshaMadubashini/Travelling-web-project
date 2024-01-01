@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "desc": " Travel Explore stands out as a premier tour company, offering exceptional travel experiences through   meticulously planned tours that cater to diverse interests. With knowledgeable guides, seamless logistics, and a strong commitment to customer satisfaction and safety, the company ensures a positive overall experience",
+    "image": "ava-2.jpg",
+    "name": "Tesa",
+    "position": "Customer"
+
+  },
+  {
+    "id": "2",
+    "desc": " Travel Explore stands out as a premier tour company, offering exceptional travel experiences through   meticulously planned tours that cater to diverse interests. With knowledgeable guides, seamless logistics, and a strong commitment to customer satisfaction and safety, the company ensures a positive overall experience",
+    "image": "ava-1.jpg",
+    "name": "Harden ",
+    "position": "Customer"
+
+  },
+  {
+    "id": "3",
+    "desc": " Travel Explore stands out as a premier tour company, offering exceptional travel experiences through   meticulously planned tours that cater to diverse interests. With knowledgeable guides, seamless logistics, and a strong commitment to customer satisfaction and safety, the company ensures a positive overall experience",
+    "image": "ava-3.jpg",
+    "name": "Kristal",
+    "position": "Customer"
+
+  }
+
+]
