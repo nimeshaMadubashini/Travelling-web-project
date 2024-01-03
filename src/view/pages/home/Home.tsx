@@ -90,7 +90,7 @@ export class Home extends Component {
                         </div>
 
                     </div>
-                    <div>
+                    <div className='mt-20'>
                         <SearchBar/>
 
                     </div>
@@ -119,7 +119,7 @@ export class Home extends Component {
                         <h5 className="font-a bg-secondary rounded-bl-2xl rounded-tr-2xl text-2xl w-24 text-center">Feature</h5>
                         <h2 className='text-[28px] text-heading font-semibold '>Our featured tours</h2>
                     </div>
-                    <div className="ml-32">
+                    <div >
                         <TourDetail/>
                     </div>
                 </section>

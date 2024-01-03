@@ -8,7 +8,8 @@ export class Footer extends Component {
         return (
             /*p-4
             bg-gradient-to-br from-blue-400 to-yellow-200*/
-            <div className="h-[17rem] w-full flex gap-[5rem]  ">
+            <div>
+            <div className="h-[16rem] w-full flex gap-[5rem]  ">
                 <div className='flex-col ml-32 mt-10 w-[18rem]'>
                     <img className="h-[39px]" src={logo}/>
                      <p className='mt-3'>Start your journey, join with us and we will show you the right way</p>
@@ -73,6 +74,8 @@ export class Footer extends Component {
                     </div>
                 </div>
 
+            </div>
+                <p className='justify-center text-center text-[14px]'>Copyright 2023,design and develop by Nimesha Madubashini. All rights reserved.</p>
 
             </div>
         );

@@ -8,7 +8,7 @@ import "../SearchBar/SearchBar.css"
 export class SearchBar extends Component {
     render() {
         return (
-            <div className='search_ber mt-20 justify-center ml-20  w-max h-1/2 rounded-5xl '>
+            <div className='search_ber  justify-center ml-20  w-max h-1/2 rounded-5xl '>
                 <form className="flex items-center gap-4">
                     <div className='flex gap-3'>
                <span>
