@@ -1,6 +1,6 @@
 import { Component } from "react";
 import logo from '../../../images/TRAVEL-removebg-preview.png'
-import { RiFacebookCircleLine,RiInstagramLine,RiYoutubeLine, RiWhatsappLine  } from "react-icons/ri";
+import { RiFacebookCircleLine,RiInstagramLine,RiYoutubeLine, RiWhatsappLine ,RiMapPinLine,RiPhoneLine, RiMailLine } from "react-icons/ri";
 import {Link} from "react-router-dom";
 
 export class Footer extends Component {
@@ -19,7 +19,7 @@ export class Footer extends Component {
                         <RiWhatsappLine/>
                     </div>
                 </div>
-                <div className='flex-col mt-10 '>
+                <div className='flex-col mt-10  '>
                     <h5 className='font-semibold'>Discover</h5>
                     <ul className="text-[14px]  ">
                         <li className="mt-5">
@@ -35,7 +35,7 @@ export class Footer extends Component {
                         </li>
                     </ul>
                 </div>
-                <div className='flex-col mt-10 '>
+                <div className='flex-col mt-10 ml-20 '>
                     <h5 className='font-semibold'>Quick Link</h5>
                     <ul className="text-[14px]  ">
                         <li className="mt-5">
@@ -51,6 +51,28 @@ export class Footer extends Component {
                         </li>
                     </ul>
                 </div>
+                <div className='flex-col mt-10 ml-20 '>
+                    <h5 className='font-semibold'>Contact</h5>
+                    <div className='flex gap-2 mt-5'>
+                        <RiMapPinLine className='text-secondary'/>
+                        <h6 className='font-semibold text-[14px] '>Address:</h6>
+                        <h6 className='text-[14px] ml-2'>Galle Road,Colombo</h6>
+
+                    </div>
+                    <div className='flex gap-2 mt-5'>
+                        <RiMailLine className='text-secondary'/>
+                        <h6 className='font-semibold text-[14px] '>Email:</h6>
+                        <h6 className='text-[14px] ml-2'>travelexplorer04@gmail.com</h6>
+
+                    </div>
+                    <div className='flex gap-2 mt-5'>
+                        <RiPhoneLine className='text-secondary'/>
+                        <h6 className='font-semibold text-[14px] '>Phone:</h6>
+                        <h6 className='text-[14px] ml-2'>+94775248674</h6>
+
+                    </div>
+                </div>
+
 
             </div>
         );
