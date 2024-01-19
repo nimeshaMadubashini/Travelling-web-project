@@ -1,6 +1,7 @@
-import {Component} from "react";
+import React, {Component} from "react";
 import {RiMapPinLine, RiStarFill} from 'react-icons/ri';
 import '../TourCard/TourCard.css'
+import {Link} from "react-router-dom";
 
 interface tourCardProps {
     data: any;
@@ -29,9 +30,9 @@ export class TourCard extends Component<tourCardProps> {
 
                 </div>
                 <div className='flex '>
-                    <a href={data.title} className='mt-8 text-[14px] text-black font-semibold ml-[-75px]'>
+                    <Link to={`/tour/${data.id}`} className='mt-8 text-[14px] text-black font-semibold'>
                         {data.title}
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex mt-4 gap-2 ml-1">
                 <h5 className="text-secondary font-semibold text-[15px]">$ {data.price}</h5>

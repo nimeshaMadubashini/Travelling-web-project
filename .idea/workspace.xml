@@ -5,167 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976f5886-f942-4f15-be85-ff591ee8167e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/reviews.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/service-data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/public/tourCard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/images/tourCard/Barcelona, Spain.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/images/tourCard/Cape Town, South Africa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/images/tourCard/Kyoto, Japan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/images/tourCard/New York City, USA.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/images/tourCard/Paris, France.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/images/tourCard/Queenstown, New Zealand.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/images/tourCard/Santorini, Greece.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/common/DefaultLayout/DefaultLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/common/NewsLetter/NewsLetter.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/common/footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/common/mainContent/MainContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/common/navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/about/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/common/Gallery/Gallery.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/common/Reviwes/Reviews.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/common/Reviwes/ReviwesMain.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/common/SearchBar/SearchBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/common/SearchBar/SearchBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/common/Service/Service.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/home/common/Service/Service.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/login/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/register/Register.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/SearchTourResult.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/Tour.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourDetail.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/tailwind.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/constant/tourCons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controller/tourCardController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db/DB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/model/tourCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/tourCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tour-management.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/reviews.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/service-data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tourCard.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Animated Social Media post.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/Animated Social Media post.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Review/ava-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/Review/ava-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Review/ava-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/Review/ava-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Review/ava-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/Review/ava-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/TRAVEL-removebg-preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/TRAVEL-removebg-preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/exp.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/exp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/experience2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/experience2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/expirience1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/expirience1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery-02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery-02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery-07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery-07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery10.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery11.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery3.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery4.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery5.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery6.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery7.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/gallery9.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/gallery9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/galley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/galley.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gallery/galley8.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/gallery/galley8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/hero1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/hero4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/hero5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/hero6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/hero7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/hero7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/herosec2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/herosec2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/herosec3.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/herosec3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-travelling-64.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/icons8-travelling-64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/maldives-island.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/maldives-island.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/newsLetter.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/newsLetter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/service/customization.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/service/customization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/service/guide.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/service/guide.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/service/weather.png" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/service/weather.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/t1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/t1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/t2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/t2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/t3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/t3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/t4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/t4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/tourCard/big-entrance-gate-bali-indonesia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/images/tourCard/big-entrance-gate-bali-indonesia.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/common/DefaultLayout/DefaultLayout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/common/NewsLetter/NewsLetter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/common/footer/Footer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/common/mainContent/MainContext.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/common/navbar/Navbar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/about/About.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/Home.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/common/Gallery/Gallery.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/common/Reviwes/Reviews.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/common/Reviwes/ReviwesMain.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/common/SearchBar/SearchBar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/common/SearchBar/SearchBar.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/common/Service/Service.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/home/common/Service/Service.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/login/Login.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/register/Register.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/tour/SearchTourResult.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/tour/Tour.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/tour/TourCard/TourCard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/tour/TourCard/TourCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/pages/tour/TourDetail.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/common/mainContent/MainContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/common/mainContent/MainContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controller/tourCardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/tourCardController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/tourCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/tourCard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,33 +40,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ReactCreateComponentLastSelected": "classBasedComponent",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "20.10.0",
-    "javascript.nodejs.core.library.typings.version": "20.10.0",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "F:/Rad/tour-management/client1/src/images/tourCard",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "F:/Rad/tour-management/node_modules/react-scripts",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "ts.external.directory.path": "F:\\Rad\\tour-management\\client1\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ReactCreateComponentLastSelected&quot;: &quot;classBasedComponent&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.10.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.0&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Rad/tour-management/client1/src/images/tourCard&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;F:/Rad/tour-management/node_modules/react-scripts&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\Rad\\tour-management\\client1\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -324,6 +169,9 @@
       <workItem from="1705287139752" duration="49000" />
       <workItem from="1705287231306" duration="302000" />
       <workItem from="1705287656932" duration="17315000" />
+      <workItem from="1705385164189" duration="2619000" />
+      <workItem from="1705551770954" duration="6547000" />
+      <workItem from="1705641773378" duration="15788000" />
     </task>
     <task id="LOCAL-00001" summary="adding tour card">
       <option name="closed" value="true" />

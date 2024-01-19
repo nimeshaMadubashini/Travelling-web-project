@@ -19,6 +19,16 @@ const tourCardController={
             console.log(error)
             res.status(500).json({error :'Something went wrong !'})
         }
+    },
+    getTour:async function (req, res, next) {
+        try {
+            const tourID = req.params.id;
+            const tours = await tourCard.find({id: tourID});
+            res.status(200).json(tours);
+        } catch (error) {
+            console.log(error)
+            res.status(500).json({error: 'Something went wrong !'})
+        }
     }
 }
 module.exports=tourCardController
