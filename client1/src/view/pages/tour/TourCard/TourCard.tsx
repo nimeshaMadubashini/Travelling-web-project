@@ -25,7 +25,7 @@ export class TourCard extends Component<tourCardProps> {
     </span>
                     <span className=" mr-4 float-right flex ">
 
-        <RiStarFill className='text-secondary font-semibold '/><h5 className="text-black text-[13px]">{data.avgRating}</h5>
+        <RiStarFill className='text-secondary font-semibold '/><h5 className="text-black text-[13px]">{data.avgRating.toFixed(2)}</h5>
     </span>
 
                 </div>

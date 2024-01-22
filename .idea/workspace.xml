@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976f5886-f942-4f15-be85-ff591ee8167e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Review/ReviewForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client1/src/view/common/mainContent/MainContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/common/mainContent/MainContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/controller/tourCardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/tourCardController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/tourCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/tourCard.js" afterDir="false" />
     </list>
@@ -21,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -171,7 +171,10 @@
       <workItem from="1705287656932" duration="17315000" />
       <workItem from="1705385164189" duration="2619000" />
       <workItem from="1705551770954" duration="6547000" />
-      <workItem from="1705641773378" duration="15788000" />
+      <workItem from="1705641773378" duration="17184000" />
+      <workItem from="1705760031368" duration="9816000" />
+      <workItem from="1705814705311" duration="12226000" />
+      <workItem from="1705895628270" duration="13224000" />
     </task>
     <task id="LOCAL-00001" summary="adding tour card">
       <option name="closed" value="true" />

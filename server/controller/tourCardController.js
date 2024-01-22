@@ -1,4 +1,7 @@
 const tourCard = require('../model/tourCard');
+const mongoose = require('mongoose');
+
+
 const tourCardController={
     getAllTourCard:async function(req,res,next){
         try {
@@ -28,6 +31,30 @@ const tourCardController={
         } catch (error) {
             console.log(error)
             res.status(500).json({error: 'Something went wrong !'})
+        }
+    },
+    addReviews:async function(req,res,next){
+        const tourId=req.params.id;
+        console.log(typeof tourId, tourId);
+
+
+        const {name,rating}=req.body;
+        try {
+            const tour = await tourCard.findOne({ id: tourId });
+            if(!tour){
+                return res.status(404).json({error : 'Tour Not found'})
+            }
+            tour.reviews.push({name,rating});
+            const totalRating = tour.reviews.reduce((sum, review) => sum + review.rating, 0);
+            tour.avgRating = Number((totalRating / tour.reviews.length).toFixed(2));
+
+
+
+            await tour.save();
+            res.json(tour);
+        } catch (error) {
+            console.error(error);
+            res.status(500).json({ error: 'Internal Server Error' });
         }
     }
 }
