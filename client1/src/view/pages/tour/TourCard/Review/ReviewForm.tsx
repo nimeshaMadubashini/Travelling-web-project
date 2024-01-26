@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { RiStarFill } from 'react-icons/ri';
-import {promises} from "dns";
-import {comment} from "postcss";
+
 
 interface ReviewFormProps {
     onSubmit: (review: { name: string;  rating: number }) => Promise<void>,

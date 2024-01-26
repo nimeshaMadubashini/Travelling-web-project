@@ -5,6 +5,8 @@ import {RiMapPinLine, RiStarFill, RiMapPinTimeLine, RiUserLine, RiExchangeDollar
 import '../../tour/TourCard/ClickTourDetail.css'
 import ReviewForm from "./Review/ReviewForm";
 import avarta from '../../../../images/avatar.jpg'
+import {BookingForm} from "./Booking/BookingForm";
+
 
 interface Review {
     name: string;
@@ -67,17 +69,17 @@ export class ClickTourDetail extends Component {
 
         // @ts-ignore
         return (
-            <div className='flex'>
-                <div className="flex ml-32 mt-6">
+            <div className='flex flex-row w-full'>
+                <div className="flex w-1/2  ml-32 mt-6">
                     {data.map((tour: any) => (
                         <div key={tour.id}>
-                            <div className="w-1/2 rounded">
+                            <div className=" rounded">
                                 <img src={require(`../../../../images/tourCard/${tour.photo}`)}
                                      alt=" "
                                      onError={(e) => console.error("Image error:", e)}
                                 />
                             </div>
-                            <div className="click-card w-1/2 h-[16rem] mt-10 rounded flex-col ">
+                            <div className="click-card  h-[16rem] mt-10 rounded flex-col ">
                                 <h2 className="text-heading  font-bold  pt-4  ml-8 text-[20px]">{tour.title}</h2>
 
 
@@ -111,7 +113,7 @@ export class ClickTourDetail extends Component {
                                 </p>
 
                             </div>
-                            <div className="click-card w-1/2 h-[25rem] mt-10 rounded flex-col ">
+                            <div className="click-card h-[25rem] mt-10 rounded flex-col ">
                                 <h2 className="text-heading font-bold pt-8 ml-8 text-[17px]">Reviews</h2>
                                 <ReviewForm onSubmit={this.handleReviewSubmit}/>
 
@@ -141,8 +143,11 @@ export class ClickTourDetail extends Component {
                         </div>
                     ))}
 
-
                 </div>
+                <div className='flex  w-1/2 ml-20 mt-6' >
+                <BookingForm/>
+                </div>
+
             </div>
         );
     }

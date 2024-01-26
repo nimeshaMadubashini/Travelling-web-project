@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976f5886-f942-4f15-be85-ff591ee8167e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Review/ReviewForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Booking/BookingForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/register/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/register/Register.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controller/tourCardController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controller/tourCardController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/tourCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/tourCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Review/ReviewForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Review/ReviewForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.10.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.0&quot;,
     &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Rad/tour-management/client1/src/images/tourCard&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Rad/tour-management/client1/src/images&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -62,7 +62,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
     &quot;ts.external.directory.path&quot;: &quot;F:\\Rad\\tour-management\\client1\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -78,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Rad\tour-management\client1\src\images" />
       <recent name="F:\Rad\tour-management\client1\src\images\tourCard" />
       <recent name="F:\Rad\tour-management" />
       <recent name="F:\Rad\tour-management\client1" />
       <recent name="F:\Rad\tour-management\client1\src" />
-      <recent name="F:\Rad\tour-management\src\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Rad\tour-management" />
@@ -174,7 +174,11 @@
       <workItem from="1705641773378" duration="17184000" />
       <workItem from="1705760031368" duration="9816000" />
       <workItem from="1705814705311" duration="12226000" />
-      <workItem from="1705895628270" duration="13224000" />
+      <workItem from="1705895628270" duration="30330000" />
+      <workItem from="1706204355032" duration="907000" />
+      <workItem from="1706205326924" duration="1825000" />
+      <workItem from="1706207959231" duration="1911000" />
+      <workItem from="1706248815578" duration="14087000" />
     </task>
     <task id="LOCAL-00001" summary="adding tour card">
       <option name="closed" value="true" />
