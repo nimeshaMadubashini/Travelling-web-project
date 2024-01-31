@@ -22,7 +22,6 @@ function App() {
           <BrowserRouter>
               <Routes>
                   <Route path="/*" Component={DefaultLayout} ></Route>
-                  <Route path="/login" Component={Login} ></Route>
               </Routes>
           </BrowserRouter>
       </>

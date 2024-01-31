@@ -77,7 +77,7 @@ class ReviewForm extends Component<ReviewFormProps> {
 
                     <button
                         className='float-right mr-2 mt-3 primary__btn text-[15px] text-white font-semibold'
-                        type='submit'
+                        type='button'
                     >
                         Submit
                     </button>

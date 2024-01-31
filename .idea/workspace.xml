@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="976f5886-f942-4f15-be85-ff591ee8167e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Booking/BookingForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client1/src/images/loginPage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/register/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/register/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/ClickTourDetail.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/common/mainContent/MainContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/common/mainContent/MainContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/common/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/common/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/login/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/login/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Booking/BookingForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Booking/BookingForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Review/ReviewForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/Review/ReviewForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/view/pages/tour/TourCard/TourCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,33 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ReactCreateComponentLastSelected&quot;: &quot;classBasedComponent&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.10.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.0&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Rad/tour-management/client1/src/images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;F:/Rad/tour-management/node_modules/react-scripts&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\Rad\\tour-management\\client1\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ReactCreateComponentLastSelected": "classBasedComponent",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.10.0",
+    "javascript.nodejs.core.library.typings.version": "20.10.0",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "F:/Car_Rental_System cw/Car_Rental_system/Easy_Car_Rental_WebProject",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "F:/Rad/tour-management/node_modules/react-scripts",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "ts.external.directory.path": "F:\\Rad\\tour-management\\client1\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -178,7 +180,9 @@
       <workItem from="1706204355032" duration="907000" />
       <workItem from="1706205326924" duration="1825000" />
       <workItem from="1706207959231" duration="1911000" />
-      <workItem from="1706248815578" duration="14087000" />
+      <workItem from="1706248815578" duration="15234000" />
+      <workItem from="1706342753042" duration="5969000" />
+      <workItem from="1706445935288" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="adding tour card">
       <option name="closed" value="true" />

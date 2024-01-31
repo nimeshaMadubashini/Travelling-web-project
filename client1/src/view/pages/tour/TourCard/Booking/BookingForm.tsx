@@ -13,7 +13,7 @@ export class BookingForm extends Component {
             data: [],
             subTotal:null,
             total:null,
-            guests: 1,
+            guests:null,
 
         }
     }

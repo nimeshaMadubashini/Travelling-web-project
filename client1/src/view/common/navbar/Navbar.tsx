@@ -29,7 +29,6 @@ export class Navbar extends Component {
                         </li>
                         <li className="inline-block  ">
                             <Link to="/tour">Tour</Link>
-
                         </li>
                     </ul>
 
@@ -37,9 +36,9 @@ export class Navbar extends Component {
                 {/*=====menu end=======*/}
                 {/*=====menu button start=======*/}
                 <div className="flex justify-end gap-5">
-                    <button className="secondary__btn" onClick={this.onButtonClick}>
+                    <button className="secondary__btn">
 
-                        <Link to="/login"><a>login</a></Link>
+                        <Link to="/login">login</Link>
 
                     </button>
                     <button className="primary__btn" onClick={this.onButtonClick}>
